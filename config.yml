@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://atrapasuenios-web.netlify.app
+
 media_folder: "imagenes"
 public_folder: "/imagenes"
 
