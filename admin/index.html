@@ -5,27 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Panel de administración | Netlify CMS</title>
 
-  <!-- Netlify CMS -->
+  <!-- Configuración del CMS -->
+  <link href="/config.yml" type="text/yaml" rel="cms-config-url" />
+
+  <!-- Estilos y scripts del CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.css" />
-
-  <!-- Configuración -->
-  <link href="/config.yml" type="text/yaml" rel="cms-config-url" />
 </head>
 <body>
-  
+  <!-- Este div es obligatorio para que Netlify CMS pueda montar la app -->
+  <div id="nc-root"></div>
+
+  <!-- Widget de Netlify Identity -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script>
     if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
+      window.netlifyIdentity.on("init", (user) => {
         if (!user) {
-          window.netlifyIdentity.on('login', () => {
-            document.location.href = '/admin/';
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
           });
         }
       });
       window.netlifyIdentity.init();
     }
   </script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </body>
 </html>
