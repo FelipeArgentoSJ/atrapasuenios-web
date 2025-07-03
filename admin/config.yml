@@ -1,3 +1,13 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "imagenes"    # Carpeta donde se almacenan las imágenes en el repo
+public_folder: "/imagenes"  # Ruta pública usada en el sitio
+
+media_library:
+  name: upload  # Esto habilita la librería de medios integrada para subir imágenes
+
 collections:
   - name: "galeria"
     label: "Galería"
