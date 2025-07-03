@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atrapasueños Artesanales</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Atrapasueños Artesanales</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="introduccion" class="seccion">
+    <h2>Introducción</h2>
+    <p>Bienvenido a nuestro sitio. Cada atrapasueños tiene una historia y una energía única, hecha con dedicación y amor.</p>
+    <h2>¿Qué son los atrapasueños?</h2>
+    <p>Aquí puedes escribir una introducción sobre la historia de los atrapasueños, su origen en las culturas nativas americanas (como la tribu Ojibwa), su significado simbólico y cómo se utilizan tradicionalmente para proteger a quienes duermen de las pesadillas y permitir que los buenos sueños pasen a través de la red.</p>
+    <h2>Significado Simbólico</h2>
+    <p>En esta sección, puedes detallar el significado de los diferentes elementos que componen un atrapasueños, como el aro (que representa el círculo de la vida), la red (que atrapa los malos sueños), las plumas (que simbolizan el aire y el vuelo de los buenos sueños), y las cuentas o piedras (que pueden representar diferentes cosas según la tradición o la intención del creador).</p>
+    <h2>Origen e Historia
+</h2>
+    <p>Aquí puedes profundizar en el origen específico de los atrapasueños, contando la leyenda de la Mujer Araña y cómo surgió la tradición de tejer estos amuletos. También puedes mencionar cómo la tradición se ha extendido y cómo diferentes culturas han adaptado sus propios estilos y significados.</p>
+  </section>
+
+  <section id="galeria" class="seccion">
+    <h2>Galería</h2>
+    <div class="tarjetas" id="galeriaContenedor"></div>
+  </section>
+
+  <section id="acerca" class="seccion">
+    <h2>Acerca de mi</h2>
+    <p>Soy una apasionada por la simbología de los atrapasueños y su poder para inspirar, y también del tequila reposado XD.</p>
+  </section>
+
+  <!--
+  <section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea rows="4" placeholder="Tu mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  -->
+
+  <section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <p>Podés encontrarnos en nuestras redes sociales:</p>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/tu-pagina" target="_blank" class="facebook">
+        <i class="fab fa-facebook-f"></i> Facebook
+      </a>
+      <a href="https://www.instagram.com/tu-cuenta" target="_blank" class="instagram">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://wa.me/549123456789" target="_blank" class="whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://www.youtube.com/@tu-canal" target="_blank" class="youtube">
+        <i class="fab fa-youtube"></i> YouTube
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="pie">
+    <p>&copy; 2025 Atrapasueños Artesanales</p>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-contenido">
+      <span class="cerrar">&times;</span>
+      <img id="modalImagen" src="" alt="Vista ampliada" />
+      <p id="modalDescripcion"></p>
+    </div>
+  </div>
+
+  <button id="btnVolverArriba" title="Volver al inicio">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "imagenes"
+public_folder: "/imagenes"
+
+collections:
+  - name: "paginas"
+    label: "Páginas"
+    files:
+      - file: "index.html"
+        label: "Contenido Principal"
+        name: "contenido_principal"
+        fields:
+          - { name: "introduccion", label: "Introducción", widget: "text" }
+          - { name: "acerca", label: "Acerca de", widget: "text" }
+  - name: "galeria"
+    label: "Galería"
+    folder: "imagenes"
+    create: true
+    media_folder: "imagenes"
+    public_folder: "/imagenes"
+    fields:
+      - { name: "imagen", label: "Imagen", widget: "image" }
+      - { name: "descripcion", label: "Descripción", widget: "text" }
