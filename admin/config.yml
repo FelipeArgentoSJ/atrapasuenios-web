@@ -1,12 +1,8 @@
 backend:
   name: test-repo
-  branch: main
 
-media_folder: "imagenes"    # Carpeta donde se almacenan las imágenes en el repo
-public_folder: "/imagenes"  # Ruta pública usada en el sitio
-
-media_library:
-  name: upload  # Esto habilita la librería de medios integrada para subir imágenes
+media_folder: "imagenes"
+public_folder: "/imagenes"
 
 collections:
   - name: "galeria"
@@ -15,12 +11,5 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - label: "Título"
-        name: "title"
-        widget: "string"
-      - label: "Imagen"
-        name: "imagen"
-        widget: "image"
-      - label: "Descripción"
-        name: "descripcion"
-        widget: "text"
+      - { label: "Imagen", name: "imagen", widget: "image" }
+      - { label: "Descripción", name: "descripcion", widget: "text" }
