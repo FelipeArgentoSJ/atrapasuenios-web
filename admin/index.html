@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <title>Admin | Netlify CMS</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel de administración | Netlify CMS</title>
+
+  <!-- Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.css" />
+
+  <!-- Configuración -->
   <link href="/config.yml" type="text/yaml" rel="cms-config-url" />
 </head>
 <body>
-  <div id="nc-root"></div>
-  <script src="https://unpkg.com/netlify-cms@2.10.192/dist/netlify-cms.js"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on('init', user => {
-      if (!user) {
-        window.netlifyIdentity.on('login', () => {
-          document.location.href = '/admin/';
-        });
-      }
-    });
-    window.netlifyIdentity.init();
-  }
-</script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+      window.netlifyIdentity.init();
+    }
+  </script>
 </body>
 </html>
