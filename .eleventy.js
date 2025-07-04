@@ -1,3 +1,7 @@
+const fs = require('fs');
+const path = require('path');
+const matter = require('gray-matter');
+
 module.exports = function(eleventyConfig) {
   // Copiar archivos estáticos directamente a la carpeta de salida
   eleventyConfig.addPassthroughCopy("index.html");
@@ -9,7 +13,19 @@ module.exports = function(eleventyConfig) {
 
   // Configurar la colección de la galería
   eleventyConfig.addCollection("galleryItems", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("./_data/gallery/*.md");
+    const galleryPath = path.join(__dirname, '_data', 'gallery');
+    const files = fs.readdirSync(galleryPath);
+    const items = [];
+
+    files.forEach(file => {
+      if (file.endsWith('.md')) {
+        const filePath = path.join(galleryPath, file);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data } = matter(fileContent);
+        items.push(data);
+      }
+    });
+    return items;
   });
 
   // Añadir el filtro jsonify para Nunjucks
