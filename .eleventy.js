@@ -41,6 +41,20 @@ module.exports = function(eleventyConfig) {
     return md.render(value);
   });
 
+  // Debugging: Log global data to see if site_content is loaded
+  eleventyConfig.addGlobalData("debugData", async () => {
+    const siteContentPath = path.join(__dirname, '_data', 'site_content.md');
+    if (fs.existsSync(siteContentPath)) {
+      const fileContent = fs.readFileSync(siteContentPath, 'utf8');
+      const { data } = matter(fileContent);
+      console.log("Eleventy: site_content.md data loaded:", data);
+      return data;
+    } else {
+      console.log("Eleventy: _data/site_content.md not found.");
+      return {};
+    }
+  });
+
   // Configurar la carpeta de entrada y salida
   return {
     dir: {
