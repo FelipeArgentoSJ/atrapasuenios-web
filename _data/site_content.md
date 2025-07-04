@@ -1,7 +1,7 @@
 ---
 intro_title: Introducción
 intro_paragraph: "*Bienvenido a nuestro sitio. Cada atrapasueños tiene una
-  historia y una energía única, hecha con dedicación y  mucho amor.*"
+  historia y una energía única, hecha con mucha dedicación y amor.*"
 what_are_title: ¿Qué son los atrapasueños?
 what_are_paragraph: Acá puedes escribir una introducción sobre la historia de
   los atrapasueños, su origen en las culturas nativas americanas (como la tribu
