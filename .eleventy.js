@@ -38,20 +38,18 @@ module.exports = function(eleventyConfig) {
   // Añadir un filtro para renderizar Markdown
   eleventyConfig.addFilter("markdown", function(value) {
     const md = new markdownIt();
-    return md.render(value);
+    return md.render(value || ''); // Asegurarse de que el valor sea una cadena
   });
 
-  // Debugging: Log global data to see if site_content is loaded
-  eleventyConfig.addGlobalData("debugData", async () => {
+  // Cargar site_content.md como datos globales
+  eleventyConfig.addGlobalData("site_content", async () => {
     const siteContentPath = path.join(__dirname, '_data', 'site_content.md');
     if (fs.existsSync(siteContentPath)) {
       const fileContent = fs.readFileSync(siteContentPath, 'utf8');
       const { data } = matter(fileContent);
-      console.log("Eleventy: site_content.md data loaded:", data);
-      return data;
+      return { homepage: data }; // Envolver los datos en 'homepage' para que coincida con la plantilla
     } else {
-      console.log("Eleventy: _data/site_content.md not found.");
-      return {};
+      return { homepage: {} };
     }
   });
 
