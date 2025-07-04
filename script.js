@@ -5,24 +5,37 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalDescripcion = document.getElementById('modalDescripcion');
   const cerrar = document.querySelector('.cerrar');
 
+  console.log("DOM content loaded. Attempting to fetch gallery data...");
+
   // Cargar datos de la galería desde el archivo JSON
   fetch('/_data/gallery.json')
-    .then(response => response.json())
+    .then(response => {
+      console.log("Fetch response received.", response);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
+      console.log("Gallery data parsed:", data);
       // Asumimos que data es directamente un array de imágenes
-      data.forEach(item => {
-        const tarjeta = document.createElement('div');
-        tarjeta.classList.add('tarjeta');
-        tarjeta.innerHTML = `
-          <img src="${item.image}" alt="${item.title}" />
-          <div class="tarjeta-descripcion">
-            <h3>${item.title}</h3>
-            <p>${item.description}</p>
-          </div>
-        `;
-        tarjeta.addEventListener('click', () => abrirModal(item.image, item.description));
-        galeria.appendChild(tarjeta);
-      });
+      if (Array.isArray(data)) {
+        data.forEach(item => {
+          const tarjeta = document.createElement('div');
+          tarjeta.classList.add('tarjeta');
+          tarjeta.innerHTML = `
+            <img src="${item.image}" alt="${item.title}" />
+            <div class="tarjeta-descripcion">
+              <h3>${item.title}</h3>
+              <p>${item.description}</p>
+            </div>
+          `;
+          tarjeta.addEventListener('click', () => abrirModal(item.image, item.description));
+          galeria.appendChild(tarjeta);
+        });
+      } else {
+        console.error("Fetched data is not an array:", data);
+      }
     })
     .catch(error => console.error('Error al cargar la galería:', error));
 
