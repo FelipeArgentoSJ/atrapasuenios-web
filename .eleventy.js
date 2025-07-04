@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
+const markdownIt = require('markdown-it');
 
 module.exports = function(eleventyConfig) {
   // Copiar archivos estáticos directamente a la carpeta de salida
@@ -32,6 +33,12 @@ module.exports = function(eleventyConfig) {
   // Añadir el filtro jsonify para Nunjucks
   eleventyConfig.addNunjucksFilter("jsonify", function(value) {
     return JSON.stringify(value, null, 2);
+  });
+
+  // Añadir un filtro para renderizar Markdown
+  eleventyConfig.addFilter("markdown", function(value) {
+    const md = new markdownIt();
+    return md.render(value);
   });
 
   // Configurar la carpeta de entrada y salida

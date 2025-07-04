@@ -22,13 +22,13 @@
 
   <section id="introduccion" class="seccion">
     <h2>{{ site_content.homepage.intro_title }}</h2>
-    {{ site_content.homepage.intro_paragraph | safe }}
+    {{ site_content.homepage.intro_paragraph | markdown | safe }}
     <h2>{{ site_content.homepage.what_are_title }}</h2>
-    {{ site_content.homepage.what_are_paragraph | safe }}
+    {{ site_content.homepage.what_are_paragraph | markdown | safe }}
     <h2>{{ site_content.homepage.symbolic_title }}</h2>
-    {{ site_content.homepage.symbolic_paragraph | safe }}
+    {{ site_content.homepage.symbolic_paragraph | markdown | safe }}
     <h2>{{ site_content.homepage.origin_title }}</h2>
-    {{ site_content.homepage.origin_paragraph | safe }}
+    {{ site_content.homepage.origin_paragraph | markdown | safe }}
   </section>
 
   <section id="galeria" class="seccion">
@@ -38,7 +38,7 @@
 
   <section id="acerca" class="seccion">
     <h2>{{ site_content.homepage.about_title }}</h2>
-    {{ site_content.homepage.about_paragraph | safe }}
+    {{ site_content.homepage.about_paragraph | markdown | safe }}
   </section>
 
   <!--
