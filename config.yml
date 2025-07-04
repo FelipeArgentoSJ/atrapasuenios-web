@@ -9,9 +9,7 @@ collections:
   - name: "atrapasuenios"
     label: "Atrapasueños"
     label_singular: "atrapasueños"
-    folder: "_data/atrapasuenios"
-    create: true
-    slug: "{{slug}}"
+    file: "_data/atrapasuenios.json" # Cambiado de 'folder' a 'file'
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Imagen", name: "image", widget: "image" }
