@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("imagenes");
   eleventyConfig.addPassthroughCopy("_headers");
   eleventyConfig.addPassthroughCopy("fondo.jpg");
+  eleventyConfig.addPassthroughCopy("config.yml"); // Añadido: Copiar config.yml
 
   // Configurar la colección de la galería
   eleventyConfig.addCollection("galleryItems", function(collectionApi) {
