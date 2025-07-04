@@ -16,3 +16,21 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Imagen", name: "image", widget: "image" }
       - { label: "Descripción", name: "description", widget: "text" }
+
+  - name: "site_content"
+    label: "Contenido del Sitio"
+    files:
+      - file: "_data/site_content.md"
+        label: "Página Principal"
+        name: "homepage"
+        fields:
+          - { label: "Título de Introducción", name: "intro_title", widget: "string" }
+          - { label: "Párrafo de Introducción", name: "intro_paragraph", widget: "markdown" }
+          - { label: "Título ¿Qué son los atrapasueños?", name: "what_are_title", widget: "string" }
+          - { label: "Párrafo ¿Qué son los atrapasueños?", name: "what_are_paragraph", widget: "markdown" }
+          - { label: "Título Significado Simbólico", name: "symbolic_title", widget: "string" }
+          - { label: "Párrafo Significado Simbólico", name: "symbolic_paragraph", widget: "markdown" }
+          - { label: "Título Origen e Historia", name: "origin_title", widget: "string" }
+          - { label: "Párrafo Origen e Historia", name: "origin_paragraph", widget: "markdown" }
+          - { label: "Título Acerca de mi", name: "about_title", widget: "string" }
+          - { label: "Párrafo Acerca de mi", name: "about_paragraph", widget: "markdown" }
