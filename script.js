@@ -6,10 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const cerrar = document.querySelector('.cerrar');
 
   // Cargar datos de la galería desde el archivo JSON
-  fetch('/_data/atrapasuenios.json')
+  fetch('/_data/gallery.json')
     .then(response => response.json())
     .then(data => {
-      data.forEach(item => {
+      // Acceder a la propiedad 'images' que contiene la lista de imágenes
+      data.images.forEach(item => {
         const tarjeta = document.createElement('div');
         tarjeta.classList.add('tarjeta');
         tarjeta.innerHTML = `
