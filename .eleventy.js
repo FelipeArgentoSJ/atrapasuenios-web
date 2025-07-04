@@ -9,18 +9,12 @@ module.exports = function(eleventyConfig) {
 
   // Configurar la colección de la galería
   eleventyConfig.addCollection("galleryItems", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("_data/gallery/*.md");
+    return collectionApi.getFilteredByGlob("./_data/gallery/*.md");
   });
 
-  // Crear un archivo de datos global para la galería
-  eleventyConfig.addGlobalData("galleryData", async () => {
-    const galleryItems = eleventyConfig.getCollection("galleryItems");
-    const data = galleryItems.map(item => ({
-      title: item.data.title,
-      image: item.data.image,
-      description: item.data.description
-    }));
-    return JSON.stringify(data, null, 2);
+  // Añadir el filtro jsonify para Nunjucks
+  eleventyConfig.addNunjucksFilter("jsonify", function(value) {
+    return JSON.stringify(value, null, 2);
   });
 
   // Configurar la carpeta de entrada y salida
