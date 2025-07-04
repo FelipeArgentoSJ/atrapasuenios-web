@@ -5,38 +5,30 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalDescripcion = document.getElementById('modalDescripcion');
   const cerrar = document.querySelector('.cerrar');
 
-  const descripciones = [
-    "Atrapasueños 01 - Inspirado en la naturaleza.",
-    "Atrapasueños 02 - Sueños de luna llena.",
-    "Atrapasueños 03 - Espíritu del bosque.",
-    "Atrapasueños 04 - Viento tribal.",
-    "Atrapasueños 05 - Noche serena.",
-    "Atrapasueños 06 - Alas de libertad.",
-    "Atrapasueños 07 - Corazón bohemio.",
-    "Atrapasueños 08 - Energía solar.",
-    "Atrapasueños 09 - Paz interior.",
-    "Atrapasueños 10 - Susurros del alma.",
-    "Atrapasueños 11 - Espíritu soñador."
-  ];
+  // Cargar datos de la galería desde el archivo JSON
+  fetch('/_data/atrapasuenios.json')
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(item => {
+        const tarjeta = document.createElement('div');
+        tarjeta.classList.add('tarjeta');
+        tarjeta.innerHTML = `
+          <img src="${item.image}" alt="${item.title}" />
+          <div class="tarjeta-descripcion">
+            <h3>${item.title}</h3>
+            <p>${item.description}</p>
+          </div>
+        `;
+        tarjeta.addEventListener('click', () => abrirModal(item.image, item.description));
+        galeria.appendChild(tarjeta);
+      });
+    })
+    .catch(error => console.error('Error al cargar la galería:', error));
 
-  for (let i = 1; i <= 11; i++) {
-    const tarjeta = document.createElement('div');
-    tarjeta.classList.add('tarjeta');
-    tarjeta.innerHTML = `
-      <img src="imagenes/${String(i).padStart(2, '0')}.jpg" alt="Atrapasueños ${i}" />
-      <div class="tarjeta-descripcion">
-        <h3>Atrapasueños ${i}</h3>
-        <p>${descripciones[i - 1]}</p>
-      </div>
-    `;
-    tarjeta.addEventListener('click', () => abrirModal(i));
-    galeria.appendChild(tarjeta);
-  }
-
-  function abrirModal(indice) {
-    modalImagen.src = `imagenes/${String(indice).padStart(2, '0')}.jpg`;
+  function abrirModal(imagenSrc, descripcion) {
+    modalImagen.src = imagenSrc;
     modalImagen.style.transform = 'scale(1)';
-    modalDescripcion.textContent = descripciones[indice - 1];
+    modalDescripcion.textContent = descripcion;
     modal.style.display = 'flex';
   }
 
@@ -77,3 +69,13 @@ btnVolverArriba.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+
+// Menú hamburguesa (si es necesario)
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+
+if (menuToggle) {
+  menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+}

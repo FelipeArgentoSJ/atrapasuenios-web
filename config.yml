@@ -2,18 +2,17 @@ backend:
   name: git-gateway
   branch: main
 
-site_url: https://atrapasuenios-web.netlify.app
-
 media_folder: "imagenes"
 public_folder: "/imagenes"
 
 collections:
-  - name: "galeria"
-    label: "Galería"
-    folder: "galeria"
+  - name: "atrapasuenios"
+    label: "Atrapasueños"
+    label_singular: "atrapasueños"
+    folder: "_data/atrapasuenios"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Imagen", name: "imagen", widget: "image" }
-      - { label: "Descripción", name: "descripcion", widget: "text" }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Descripción", name: "description", widget: "text" }
