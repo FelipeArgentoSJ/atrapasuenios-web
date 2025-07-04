@@ -9,10 +9,12 @@ collections:
   - name: "gallery"
     label: "Galería"
     label_singular: "Imagen"
-    folder: "_data/gallery" # Cambiado a folder
-    create: true
-    slug: "{{slug}}"
+    file: "_data/gallery.json" # El archivo único que contendrá la lista de imágenes
     fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Imagen", name: "image", widget: "image" }
-      - { label: "Descripción", name: "description", widget: "text" }
+      - name: "images" # Este campo contendrá la lista de imágenes
+        label: "Imágenes"
+        widget: "list"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Imagen", name: "image", widget: "image" }
+          - { label: "Descripción", name: "description", widget: "text" }
