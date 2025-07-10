@@ -1,5 +1,5 @@
 ---
-title: Atrapasueños Artesanles
+title: Atrapasueños Colgante Multicolor
 image: /imagenes/colgante-de-atrapasueños.jpeg
 description: Un Atrapasueños Colgante con varios atrapasueños de colores es un
   símbolo rico en significado. Refleja la esperanza, la protección, la
