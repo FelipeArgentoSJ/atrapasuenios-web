@@ -74,6 +74,17 @@ body {
   justify-content: center;
 }
 
+/* Acortador de descripción */
+.tarjeta-descripcion p {
+  display: -webkit-box;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0; /* Ajusta o elimina el margen si es necesario */
+}
+
+
 @media (max-width: 768px) {
   .tarjeta {
     width: 100%;
