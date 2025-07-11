@@ -23,5 +23,5 @@ origin_paragraph: Aquí puedes profundizar en el origen específico de los
   significados.
 about_title: Acerca de mi
 about_paragraph: Soy una apasionada por la simbología de los atrapasueños y su
-  poder para inspirar, y también del tequila reposado XD.
+  poder para inspirar.
 ---
