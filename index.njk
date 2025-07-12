@@ -77,12 +77,10 @@
 
   <footer class="pie">
     <p>&copy; 2025 Atrapasueños Artesanales</p>
-    <a href="https://hits.seeyoufarm.com" target="_blank">
-  <img 
-    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fatrapasuenios-web.netlify.app&count_bg=%23007BFF&title_bg=%23000000&icon=eye.svg&icon_color=%23FFFFFF&title=Visitas&edge_flat=true"
-    alt="Contador de visitas"
-  />
-</a>
+    <div id="contador-visitas" style="color: white; font-size: 1rem; text-align: center; margin-top: 1rem;">
+      Visitas: <span id="visitas">...</span>
+    </div>
+
   </footer>
 
   <div id="modal" class="modal">
@@ -98,5 +96,17 @@
   </button>
 
   <script src="script.js" defer></script>
+  <script>
+  fetch('https://api.countapi.xyz/hit/atrapasuenios-web.netlify.app/visitas')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('visitas').textContent = data.value;
+    })
+    .catch(err => {
+      document.getElementById('visitas').textContent = 'Error';
+      console.error('Error al obtener visitas:', err);
+    });
+</script>
+
 </body>
 </html>
