@@ -1,6 +1,6 @@
 ---
-title: Atrapasueños Artesanales
-image: /imagenes/atrapasueños-artesanales.jpeg
+title: Atrapasueños La Tierra, El Sol y La Luna
+image: /imagenes/atrapasueños-la-tierra-el-sol-y-la-luna.jpeg
 description: >
   Ven a Descubrir el Mundo de Los Atrapasueños,  significados que Representan.
 
