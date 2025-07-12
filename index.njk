@@ -77,10 +77,7 @@
 
   <footer class="pie">
     <p>&copy; 2025 Atrapasueños Artesanales</p>
-    <div id="contador-visitas" style="color: white; font-size: 1rem; text-align: center; margin-top: 1rem;">
-      Visitas: <span id="visitas">...</span>
-    </div>
-
+    
   </footer>
 
   <div id="modal" class="modal">
@@ -96,17 +93,6 @@
   </button>
 
   <script src="script.js" defer></script>
-  <script>
-  fetch('https://api.countapi.xyz/hit/atrapasuenios-web.netlify.app/visitas')
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById('visitas').textContent = data.value;
-    })
-    .catch(err => {
-      document.getElementById('visitas').textContent = 'Error';
-      console.error('Error al obtener visitas:', err);
-    });
-</script>
-
+  
 </body>
 </html>
