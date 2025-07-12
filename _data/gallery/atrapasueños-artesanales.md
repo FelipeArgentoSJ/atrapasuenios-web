@@ -1,5 +1,5 @@
 ---
-title: Atrapasueños Artesanales
+title: Atrapasueños Artesanales Borrar
 image: /imagenes/atrapasueños-artesanales.jpeg
 description: >
   Ven a Descubrir el Mundo de Los Atrapasueños,  significados que Representan.
