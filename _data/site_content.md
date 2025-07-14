@@ -1,27 +1,84 @@
 ---
 intro_title: Atrapasueños Artesanales
-intro_paragraph: "*Bienvenido a nuestro sitio. Cada atrapasueños tiene una
-  historia y una energía única, hecha con mucha dedicación y amor.*"
-what_are_title: ¿Qué son los atrapasueños?
-what_are_paragraph: Aquí puedes escribir una introducción sobre la historia de
-  los atrapasueños, su origen en las culturas nativas americanas (como la tribu
-  Ojibwa), su significado simbólico y cómo se utilizan tradicionalmente para
-  proteger a quienes duermen de las pesadillas y permitir que los buenos sueños
-  pasen a través de la red.
-symbolic_title: Significado Simbólico
-symbolic_paragraph: En esta sección, puedes detallar el significado de los
-  diferentes elementos que componen un atrapasueños, como el aro (que representa
-  el círculo de la vida), la red (que atrapa los malos sueños), las plumas (que
-  simbolizan el aire y el vuelo de los buenos sueños), y las cuentas o piedras
-  (que pueden representar diferentes cosas según la tradición o la intención del
-  creador).
-origin_title: Origen e Historia
-origin_paragraph: Aquí puedes profundizar en el origen específico de los
-  atrapasueños, contando la leyenda de la Mujer Araña y cómo surgió la tradición
-  de tejer estos amuletos. También puedes mencionar cómo la tradición se ha
-  extendido y cómo diferentes culturas han adaptado sus propios estilos y
-  significados.-
+intro_paragraph: >-
+  *Bienvenido a nuestro sitio. Cada atrapasueños tiene una historia y una
+  energía única, hecha con mucha dedicación y amor.*
+
+
+  Su aro, representa la rueda de la vida; la malla o la red son los sueños, anhelos e ilusiones que se tejen en el tiempo de los sueños, en el alma y en el movimiento que se genera por medio de las actividades cotidianas. Y en el centro de la red se encuentra el vacío, el espíritu creador, el Gran Misterio.
+
+
+  Los atrapasueños, también conocidos como cazadores de sueños, han regresado con fuerza y se han convertido en una presencia común en hogares, negocios e incluso en los retrovisores de los autos. Estos amuletos tejidos a mano con plumas de aves coloridas guardan secretos y significados que nos sumergen en el mundo de la tradición y la espiritualidad.
+what_are_title: Origen de Los Atrapasueños
+what_are_paragraph: El atrapasueños se origina en la tribu Ojibwa, cuya leyenda
+  central es Asibikaashi, la "mujer araña", encargada de cuidar a todas las
+  criaturas y de tejer la red de los sueños.
+symbolic_title: Significado de Los Atrapasueños
+symbolic_paragraph: >-
+  Significado y Componentes:
+
+  El aro:
+
+  Simboliza el círculo de la vida, la rueda de la vida, o el "Gran Misterio" en el centro de la red. 
+
+  La red o malla:
+
+  Representa los sueños, anhelos e ilusiones, así como la "telaraña de la vida". 
+
+  Las plumas y cuentas:
+
+  Las plumas guían los buenos sueños hacia la persona y las cuentas pueden representar la red de la vida o elementos que atraen bendiciones. Las plumas también se asocian a la respiración o el aire. 
+
+  Usos y Simbolismo:
+
+  Protección y buenos deseos:
+
+  Regalar un atrapasueños es una manifestación de protección y buenos deseos, buscando brindar paz y energía positiva a quien lo recibe. 
+
+  Filtrado de sueños:
+
+  Se cree que solo los buenos sueños pasan a través de la red, deslizándose por las plumas hasta el durmiente, mientras que las pesadillas quedan atrapadas en la malla y se desvanecen con la luz del alba. 
+
+  Atracción de la fortuna:
+
+  Los atrapasueños también se asocian con la atracción de la fortuna, la armonía y la salud. 
+
+  Colocación:
+
+  Tradicionalmente, se cuelgan sobre las camas, cerca del cabecero, o en las entradas para proteger el hogar.
+origin_title: "Significado de sus Colores "
+origin_paragraph: >-
+  Los colores de los atrapasueños no solo los hacen visualmente atractivos, sino
+  que también reflejan energías, emociones e intenciones. Aunque los
+  significados pueden variar ligeramente según la cultura o la persona que los
+  crea, aquí tienes una guía general de lo que cada color suele representar:
+
+
+  Blanco: Pureza, paz interior, sanación\
+
+  Rojo: Pasión, fuerza, coraje, creatividad\
+
+  Negro: Protección, poder, fortaleza mental\
+
+  Azul: Tranquilidad, calma y equilibrio emocional.
+
+  Verde: Esperanza, crecimiento, conexión con la naturaleza 
+
+  Amarillo: Alegría, optimismo, energía positiva
+
+  Naranja: Entusiasmo, vitalidad, renovación
+
+  Rosa: Amor, ternura, autoestima 
+
+  Morado: Espiritualidad, intuición, sabiduría
+
+  Marrón: Estabilidad, arraigo, respeto por la tierra 
+
+  Multicolor: Equilibrio, diversidad e inclusión, tomando diferentes energías como una entidad completa.
+
+   Algunas personas eligen el color de su atrapasueños según lo que necesitan atraer o proteger en sus vidas. Por ejemplo, si estás pasando por un momento de estrés, uno azul podría ayudarte a buscar calma y equilibrio.
 about_title: Acerca de mi
 about_paragraph: Soy una apasionada por lo que representa la simbología de los
-  atrapasueños y su poder para inspirar.
+  atrapasueños y su poder para inspirar y proteger, Generando Paz y armonia a
+  quien lo Porta.
 ---
