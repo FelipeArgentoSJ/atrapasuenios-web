@@ -1,5 +1,5 @@
 ---
-intro_title: Introducción
+intro_title: Atrapasueños Artesanales
 intro_paragraph: "*Bienvenido a nuestro sitio. Cada atrapasueños tiene una
   historia y una energía única, hecha con mucha dedicación y amor.*"
 what_are_title: ¿Qué son los atrapasueños?
