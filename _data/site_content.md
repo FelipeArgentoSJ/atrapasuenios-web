@@ -20,7 +20,7 @@ origin_paragraph: Aquí puedes profundizar en el origen específico de los
   atrapasueños, contando la leyenda de la Mujer Araña y cómo surgió la tradición
   de tejer estos amuletos. También puedes mencionar cómo la tradición se ha
   extendido y cómo diferentes culturas han adaptado sus propios estilos y
-  significados.
+  significados.-
 about_title: Acerca de mi
 about_paragraph: Soy una apasionada por la simbología de los atrapasueños y su
   poder para inspirar.
