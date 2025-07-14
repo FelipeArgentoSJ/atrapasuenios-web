@@ -2,10 +2,8 @@
 title: "Atrapasueños Estrella de 8 Puntas "
 image: /imagenes/atrapasueños-de-8-puntas.jpeg
 description: >-
-  Significados y asociaciones:
-
-
-  La forma simétrica de la estrella de ocho puntas la asocia con el equilibrio entre opuestos, los elementos y las cualidades. 
+  La forma simétrica de la estrella de ocho puntas la asocia con el equilibrio
+  entre opuestos, los elementos y las cualidades. 
 
   El número 8 representa la resurrección y el ciclo de muerte y renacimiento, así como los nuevos comienzos. 
 
