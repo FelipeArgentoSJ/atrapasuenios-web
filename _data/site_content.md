@@ -54,27 +54,23 @@ origin_paragraph: >-
   crea, aquí tienes una guía general de lo que cada color suele representar:
 
 
-  Blanco: Pureza, paz interior, sanación\
+  * Blanco:  Pureza, paz interior, sanación
 
-  Rojo: Pasión, fuerza, coraje, creatividad\
+  * Rojo:  Pasión, fuerza, coraje, creatividad.
 
-  Negro: Protección, poder, fortaleza mental\
+  * Negro:  Protección, poder, fortaleza mental.
 
-  Azul: Tranquilidad, calma y equilibrio emocional.
+  * Azul:  Tranquilidad, calma y equilibrio emocional.
 
-  Verde: Esperanza, crecimiento, conexión con la naturaleza 
+  * Verde: Esperanza, crecimiento, conexión con la naturaleza. Amarillo: Alegría, optimismo, energía positiva.
 
-  Amarillo: Alegría, optimismo, energía positiva
+  * Naranja: Entusiasmo, vitalidad, renovación. Rosa: Amor, ternura, autoestima .   
 
-  Naranja: Entusiasmo, vitalidad, renovación
+  * Morado: Espiritualidad, intuición, sabiduría. 
 
-  Rosa: Amor, ternura, autoestima 
+  * Marrón: Estabilidad, arraigo, respeto por la tierra. 
 
-  Morado: Espiritualidad, intuición, sabiduría
-
-  Marrón: Estabilidad, arraigo, respeto por la tierra 
-
-  Multicolor: Equilibrio, diversidad e inclusión, tomando diferentes energías como una entidad completa.
+  * Multicolor: Equilibrio, diversidad e inclusión, tomando diferentes energías como una entidad completa.
 
    Algunas personas eligen el color de su atrapasueños según lo que necesitan atraer o proteger en sus vidas. Por ejemplo, si estás pasando por un momento de estrés, uno azul podría ayudarte a buscar calma y equilibrio.
 about_title: Acerca de mi
