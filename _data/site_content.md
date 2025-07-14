@@ -10,9 +10,26 @@ intro_paragraph: >-
 
   Los atrapasueños, también conocidos como cazadores de sueños, han regresado con fuerza y se han convertido en una presencia común en hogares, negocios e incluso en los retrovisores de los autos. Estos amuletos tejidos a mano con plumas de aves coloridas guardan secretos y significados que nos sumergen en el mundo de la tradición y la espiritualidad.
 what_are_title: Origen de Los Atrapasueños
-what_are_paragraph: El atrapasueños se origina en la tribu Ojibwa, cuya leyenda
-  central es Asibikaashi, la "mujer araña", encargada de cuidar a todas las
-  criaturas y de tejer la red de los sueños.
+what_are_paragraph: >-
+  Los atrapasueños *se originaron en las tribus nativas de Norteamérica,
+  principalmente entre los Ojibwa, como un amuleto para proteger a los
+  durmientes, especialmente a los niños, de las pesadillas y la energía
+  negativa, filtrando los sueños y permitiendo que solo los buenos pasaran*. Su
+  diseño imita una tela de araña, con un aro y una red central, y se cree que
+  los malos sueños quedan atrapados en la red y se desvanecen con la luz del
+  día, mientras que los buenos sueños se deslizan por las plumas hasta la
+  persona que duerme. 
+
+
+  * **Pueblo Ojibwa:**
+
+    El atrapasueños es una tradición ancestral del pueblo Ojibwa (también conocidos como Ojibway o Chippewa) de Norteamérica, que habitan principalmente en zonas como Ontario, Wisconsin y Minnesota. 
+  * **Asibikaashi, la Mujer Araña:**
+
+    La leyenda central gira en torno a Asibikaashi, la "mujer araña", quien cuidaba y tejía una red para atrapar los malos sueños de los niños y permitir que los buenos descansaran. 
+  * **Necesidad de un Amuleto:**
+
+    Cuando la tribu de los Ojibwa se dispersó por América del Norte, las abuelas y madres comenzaron a tejer estos objetos para que las "madres araña" pudieran seguir cuidando los sueños de los niños en sus nuevas ubicaciones.
 symbolic_title: Significado de Los Atrapasueños
 symbolic_paragraph: >-
   Significado y Componentes:
