@@ -22,6 +22,6 @@ origin_paragraph: Aquí puedes profundizar en el origen específico de los
   extendido y cómo diferentes culturas han adaptado sus propios estilos y
   significados.-
 about_title: Acerca de mi
-about_paragraph: Soy una apasionada por la simbología de los atrapasueños y su
-  poder para inspirar.
+about_paragraph: Soy una apasionada por lo que representa la simbología de los
+  atrapasueños y su poder para inspirar.
 ---
