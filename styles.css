@@ -139,6 +139,14 @@ body {
 
 
 @media (max-width: 768px) {
+  .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
   .tarjeta {
     width: 100%;
     flex-direction: column;
@@ -241,7 +249,7 @@ input, textarea, button {
   max-height: 90vh;
   /* overflow: hidden; */
   text-align: justify;
-  color: #902;
+  color: #222;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
