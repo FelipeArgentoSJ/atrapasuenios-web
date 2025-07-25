@@ -181,6 +181,8 @@ body {
   background: #fff;
   padding: 2rem;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   position: relative;
   max-width: 800px;
   width: 90%;
