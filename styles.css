@@ -170,7 +170,7 @@ body {
 }
 
 .modal-contenido {
-  background: #f0f;
+  background: #fff;
   padding: 2rem;
   border-radius: 10px;
   position: relative;
@@ -241,7 +241,7 @@ input, textarea, button {
   max-height: 90vh;
   /* overflow: hidden; */
   text-align: justify;
-  color: #222;
+  color: #902;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
