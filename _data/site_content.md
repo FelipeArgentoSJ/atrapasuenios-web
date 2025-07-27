@@ -79,9 +79,13 @@ origin_paragraph: >-
 
   * Azul:  Tranquilidad, calma y equilibrio emocional.
 
-  * Verde: Esperanza, crecimiento, conexión con la naturaleza. Amarillo: Alegría, optimismo, energía positiva.
+  * Verde: Esperanza, crecimiento, conexión con la naturaleza.  
 
-  * Naranja: Entusiasmo, vitalidad, renovación. Rosa: Amor, ternura, autoestima .   
+  * Amarillo: Alegría, optimismo, energía positiva.  
+
+  * Naranja: Entusiasmo, vitalidad, renovación.  
+
+  * Rosa: Amor, ternura, autoestima .  
 
   * Morado: Espiritualidad, intuición, sabiduría. 
 
