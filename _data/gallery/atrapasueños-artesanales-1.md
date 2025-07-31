@@ -1,6 +1,6 @@
 ---
 title: Atrapasueños La Tierra, El Sol y La Luna
-image: /imagenes/07-atrapasueños-la-tierra-el-sol-y-la-luna.png
+image: /imagenes/atrapasueños-la-tierra-el-sol-y-la-luna_wm.png
 description: La Tierra simboliza la Base, la estabilidad y el arraigo en la
   vida, también representa la fertilidad y la abundancia. El Sol representa la
   Luz, la energía, el poder y la Vitalidad. A menudo se asocia con la Claridad,
