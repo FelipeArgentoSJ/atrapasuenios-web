@@ -1,6 +1,6 @@
 ---
 title: "Atrapasueños Estrella de 8 Puntas "
-image: /imagenes/09-atrapasueños-de-8-puntas.png
+image: /imagenes/atrapasueños-de-8-puntas_wm.png
 description: >-
   La forma simétrica de la estrella de ocho puntas la asocia con el equilibrio
   entre opuestos, los elementos y las cualidades. 
