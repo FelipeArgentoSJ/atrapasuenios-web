@@ -1,6 +1,6 @@
 ---
 title: Atrapasueños 7 Chakras
-image: /imagenes/06-atrapasueños-7-chakras.png
+image: /imagenes/atrapasueños-7-chakras_wm.png
 description: >
   Los 7 chakras son los centros de energía que se distribuyen por la columna
   vertebral, desde el coxis hasta la corona. Cuando estos están equilibrados es
